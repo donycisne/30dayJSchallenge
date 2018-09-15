@@ -14,7 +14,7 @@
 
     svg {
       fill:white;
-      background: rgba(0,0,0,0.1);
+      background: rgb(10, 136, 72);
       padding: 20px;
       border-radius: 50%;
       width:200px;
@@ -75,4 +75,29 @@
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
+    }
+
+    .form-buttons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1.25rem;
+    }
+
+    .clear,
+    .check,
+    .uncheck {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background: #098848;
+      color: white;
+      font-weight: 700;
+      font-family: cursive;
+      cursor: pointer;
+    }
+
+    .clear:hover,
+    .check:hover,
+    .uncheck:hover {
+      background: #02311a;
     }
